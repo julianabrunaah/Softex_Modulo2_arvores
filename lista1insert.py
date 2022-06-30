@@ -1,7 +1,7 @@
 import random
 from tree import BinarySearchTree
 
-random.seed(77)
+random.seed(100)
 
 def random_tree(size=42):
     values = random.sample(range(1, 1000), 42)
